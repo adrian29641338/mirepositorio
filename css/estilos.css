@@ -24,50 +24,38 @@ body{
 	font-family: 'Trebuchet MS', Arial, sans-serif;
 	color: #181818;
 }
-
 #contenido{
 	width: 900px;
 	margin: auto;
-
 }
 header{
 	background: url('../imagenes/line.png') repeat-x bottom;
-
 }
-
 #logo{
 	display: inline-block;
-
 }
 header h1{
 	font-family: 'ballpark';
 	font-size: 2.5em;
 	font-weight: normal;
-
 }
-
 #imagen, header h1{
 	display: inline-block;
 	margin-bottom: 0px;
-
 }
-
 header h2{
 	font-family: 'dayrom';
 	font-size: 1.1em;
 	margin-top: 0px;
 	font-weight: normal;
-
 }
 nav{
 	display: inline-block;
 	width: 740px;
 	text-align: right;
 }
-
 nav ul{
 	list-style-type: none;
-
 }
 nav li{
 	display: inline-block;
@@ -103,7 +91,6 @@ nav a:hover{
 	border-radius: 0px, 0px, 5px, 5px;
 	bottom: 0px;
 	position: absolute;
-
 }
 .boton_rojo {
 	display: inline-block;
@@ -119,7 +106,6 @@ nav a:hover{
 	padding: 3px 8px 0px 8px;
 	border: 1px solid #760001;
 	background-image: linear-gradient(#ff1200, #e84500);
-
 }
 .boton_rojo:hover{
 	display: inline-block;
@@ -135,5 +121,79 @@ nav a:hover{
 	padding: 3px 8px 0px 8px;
 	border: 1px solid #760001;
 	background-image: linear-gradient(#ff1200, white);
+}
+article, aside{
+	display: inline-block;
+	text-align: justify;
+	vertical-align: top;
+}
+article{
+	width: 625px;
+	margin-right: 15px;
+}
+.art_img{
+	vertical-align: middle;
+	margin-right: 8px;
+}
+article p{
+	font-size: 0.8em;
+}
+aside{
+	position: relative;
+	width: 235px;
+	background-color: #706b64;
+	box-shadow: 0px 2px 5px #1c1c19;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 0.9em;
+}
+#imagen_autor{
+	position: absolute;
+	top: 100px;
+	left: -12px;
+}
+#foto{
+	text-align: center;
+}
+#foto img{
+	border: 1px solid #181818;
+}
 
+footer{
+	background: url('../imagenes/top.png') no-repeat top center, 
+	url('..imagenes/line.png') repeat-x top, url('../imagenes/shadow.png') repeat-x top;
+	padding-top: 25px;
+}	
+footer p, footer ul{
+	font-weight: 0.8em;
+}
+footer h1{
+	font-weight: 1.1em;
+}
+#posts, #fotos, #telefonos{
+	display: inline-block;
+	vertical-align: top;
+
+}
+#posts{
+	width: 30%;
+}
+#fotos{
+	width: 40%;
+}
+#telefonos{
+	width: 25%;
+}
+#fotos img{
+	border: 1px solid #181818;
+	margin-right: 2px;
+}
+#telefonos ul{
+	list-style-image: url('../imagenes/external_link.png');
+	padding: 2px;
+	width: 48%;
+	margin-top: 0;
+	vertical-align: top;
+	margin-left: 19px;
 }
